@@ -136,6 +136,7 @@ final class AppLockTests: XCTestCase {
         lock.willEnterForeground(now: t0.addingTimeInterval(61))
         XCTAssertTrue(lock.isLocked)
 
+        lock.lastError = nil
         auth.result = .failure(.cancelled)
         await lock.unlock()
         XCTAssertTrue(lock.isLocked)
