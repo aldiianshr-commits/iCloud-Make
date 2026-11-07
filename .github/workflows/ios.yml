@@ -156,6 +156,7 @@ jobs:
           } > "$SUM"
           for f in "$LOGS"/*.log; do tail -n 1500 "$f" > "$f.tail" && mv "$f.tail" "$f"; done
           cp build/screenshots/*.png "$LOGS/" 2>/dev/null || true
+          cp "build/output/iCloud IPA.ipa" "$LOGS/" 2>/dev/null || true
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           rm -rf /tmp/cilogs
