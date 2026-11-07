@@ -102,7 +102,7 @@ struct HomeView: View {
                 Text(title).font(.footnote.weight(.semibold)).lineLimit(1).minimumScaleFactor(0.8)
             }
             .frame(maxWidth: .infinity, minHeight: 72)
-            .background(.background.secondary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
         }
         .buttonStyle(.plain)
         .foregroundStyle(disabled ? Color.secondary : Color.accentColor)
