@@ -211,7 +211,7 @@ final class SyncEngine: ObservableObject {
 
     struct Result: Equatable { var copied = 0; var unchanged = 0; var failed: [String] = [] }
 
-    static func needsCopy(source: RemoteItem, target: RemoteItem?) -> Bool {
+    nonisolated static func needsCopy(source: RemoteItem, target: RemoteItem?) -> Bool {
         guard let target else { return true }
         if let a = source.md5, let b = target.md5, a.count == 32, b.count == 32 { return a.lowercased() != b.lowercased() }
         return source.size != target.size

@@ -302,14 +302,9 @@ struct FolderSource: BackupSource {
 
 struct AppDataExport: Codable {
     struct Account: Codable { let id: UUID; let provider: String; let displayName: String; let email: String; let role: String }
-    struct Entry: Codable {
-        let key: String; let category: String; let sourceID: String; let name: String; let fingerprint: String
-        let accountID: UUID; let remoteID: String; let size: Int64; let md5: String?; let encrypted: Bool; let lastBackedUp: Date; let deletedAt: Date?
-    }
     var exportedAt: Date
     var appVersion: String
     var accounts: [Account]
-    var entries: [Entry]
     var settings: [String: String]
 }
 

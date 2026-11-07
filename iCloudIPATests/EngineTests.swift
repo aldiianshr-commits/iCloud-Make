@@ -312,6 +312,7 @@ final class IntegrationTests: XCTestCase {
     }
 
     func testRestoreFileWithIntegrityCheck() async throws {
+        try? FileManager.default.removeItem(at: AppPaths.restored)
         env.settings.backupCategories = [.appData]
         env.settings.backupAccountID = accountA.id
         _ = await env.backup.run(kind: .incremental, trigger: .manual)

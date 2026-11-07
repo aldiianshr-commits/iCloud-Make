@@ -194,7 +194,7 @@ final class AccountManager: ObservableObject {
     }
 
     /// Primary first, then backup (fallback) accounts, then the rest; ties broken by most free space.
-    static func rankForUpload(_ accounts: [CloudAccount]) -> [CloudAccount] {
+    nonisolated static func rankForUpload(_ accounts: [CloudAccount]) -> [CloudAccount] {
         func rank(_ r: AccountRole) -> Int { r == .primary ? 0 : r == .backup ? 1 : 2 }
         return accounts.sorted {
             if rank($0.role) != rank($1.role) { return rank($0.role) < rank($1.role) }

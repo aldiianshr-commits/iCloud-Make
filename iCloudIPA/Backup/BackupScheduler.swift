@@ -1,6 +1,7 @@
 import Foundation
 import BackgroundTasks
 import UIKit
+import Network
 
 /// Schedules automatic backups with BGTaskScheduler.
 ///
@@ -125,7 +126,6 @@ final class BackupScheduler {
     }
 }
 
-import Network
 
 /// Tracks whether the current path is Wi-Fi (for "Wi-Fi only" backups).
 final class NetworkMonitor {

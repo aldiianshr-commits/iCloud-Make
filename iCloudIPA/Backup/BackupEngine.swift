@@ -62,7 +62,7 @@ final class BackupEngine: ObservableObject {
 
     // MARK: Planning (pure, unit-tested)
 
-    static func plan(items: [BackupSourceItem], existing: [String: EntryState], kind: BackupKind, accountID: UUID) -> BackupPlan {
+    nonisolated static func plan(items: [BackupSourceItem], existing: [String: EntryState], kind: BackupKind, accountID: UUID) -> BackupPlan {
         var plan = BackupPlan()
         let present = Set(items.map(\.sourceID))
         for item in items {
@@ -96,13 +96,11 @@ final class BackupEngine: ObservableObject {
 
     func appDataSnapshot() throws -> Data {
         let accs = store.accounts().map { AppDataExport.Account(id: $0.id, provider: $0.providerRaw, displayName: $0.displayName, email: $0.email, role: $0.roleRaw) }
-        let entries = ((try? store.context.fetch(FetchDescriptor<BackupEntry>())) ?? []).map {
-            AppDataExport.Entry(key: $0.key, category: $0.categoryRaw, sourceID: $0.sourceID, name: $0.name, fingerprint: $0.fingerprint,
-                                accountID: $0.accountID, remoteID: $0.remoteID, size: $0.size, md5: $0.md5, encrypted: $0.encrypted,
-                                lastBackedUp: $0.lastBackedUp, deletedAt: $0.deletedAt)
-        }.sorted { $0.key < $1.key }
-        let settingsDict = settings.exportDictionary().mapValues { "\($0)" }
-        let export = AppDataExport(exportedAt: Date(), appVersion: AppConfig.version, accounts: accs, entries: entries, settings: settingsDict)
+        // The backup catalogue itself lives in the manifests; volatile values are left out so an
+        // unchanged configuration is not re-uploaded on every run.
+        var settingsDict = settings.exportDictionary().mapValues { "\($0)" }
+        settingsDict["settings.lastBackupAt"] = nil
+        let export = AppDataExport(exportedAt: Date(), appVersion: AppConfig.version, accounts: accs, settings: settingsDict)
         return try BackupSnapshot.encoder.encode(export)
     }
 
@@ -270,7 +268,7 @@ final class BackupEngine: ObservableObject {
         return current
     }
 
-    static func snapshotName(_ name: String, date: Date) -> String {
+    nonisolated static func snapshotName(_ name: String, date: Date) -> String {
         let base = (name as NSString).deletingPathExtension
         let ext = (name as NSString).pathExtension
         let f = DateFormatter()
