@@ -1,0 +1,166 @@
+name: iOS build, test & package
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 75
+    env:
+      LOGS: ${{ github.workspace }}/build/logs
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select newest Xcode
+        run: |
+          XC=$(ls -d /Applications/Xcode_*.app | sort -V | tail -n 1)
+          sudo xcode-select -s "$XC"
+          xcodebuild -version
+          mkdir -p "$LOGS"
+          xcodebuild -version > "$LOGS/environment.txt"
+          sw_vers >> "$LOGS/environment.txt"
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Write developer secrets (optional)
+        env:
+          GOOGLE_IOS_CLIENT_ID: ${{ secrets.GOOGLE_IOS_CLIENT_ID }}
+        run: |
+          if [ -n "$GOOGLE_IOS_CLIENT_ID" ]; then
+            REV="com.googleusercontent.apps.${GOOGLE_IOS_CLIENT_ID%.apps.googleusercontent.com}"
+            printf 'GOOGLE_IOS_CLIENT_ID = %s\nGOOGLE_REVERSED_CLIENT_ID = %s\n' "$GOOGLE_IOS_CLIENT_ID" "$REV" > Config/Secrets.xcconfig
+            echo "Google client ID configured" | tee -a "$LOGS/environment.txt"
+          else
+            echo "No GOOGLE_IOS_CLIENT_ID secret: app builds with Google Drive marked 'not configured'" | tee -a "$LOGS/environment.txt"
+          fi
+
+      - name: Generate Xcode project
+        run: xcodegen generate 2>&1 | tee "$LOGS/xcodegen.log"
+
+      - name: Resolve Swift packages
+        run: xcodebuild -resolvePackageDependencies -project iCloudIPA.xcodeproj -scheme iCloudIPA 2>&1 | tee "$LOGS/resolve.log"
+
+      - name: Unit & integration tests (iPhone simulator)
+        env:
+          TEST_RUNNER_ICIPA_GOOGLE_TEST_CLIENT_ID: ${{ secrets.GOOGLE_IOS_CLIENT_ID }}
+          TEST_RUNNER_ICIPA_GOOGLE_TEST_REFRESH_TOKEN: ${{ secrets.GOOGLE_TEST_REFRESH_TOKEN }}
+          TEST_RUNNER_ICIPA_TERABOX_TEST_NDUS: ${{ secrets.TERABOX_TEST_NDUS }}
+        run: |
+          set -o pipefail
+          UDID=$(python3 scripts/pick_simulator.py iPhone)
+          xcodebuild test -project iCloudIPA.xcodeproj -scheme iCloudIPA \
+            -destination "id=$UDID" -resultBundlePath build/TestResults.xcresult \
+            CODE_SIGN_IDENTITY=- CODE_SIGNING_REQUIRED=NO 2>&1 | tee "$LOGS/test-iphone.log" | grep -E "error:|warning: unre|Test Suite|Test Case.*(passed|failed)|Executed|TEST (SUCCEEDED|FAILED)|BUILD (SUCCEEDED|FAILED)" || exit ${PIPESTATUS[0]}
+
+      - name: Build for iPad simulator (layout target)
+        run: |
+          set -o pipefail
+          UDID=$(python3 scripts/pick_simulator.py iPad)
+          xcodebuild build -project iCloudIPA.xcodeproj -scheme iCloudIPA \
+            -destination "id=$UDID" CODE_SIGN_IDENTITY=- CODE_SIGNING_REQUIRED=NO 2>&1 | tee "$LOGS/build-ipad.log" | grep -E "error:|BUILD (SUCCEEDED|FAILED)" || exit ${PIPESTATUS[0]}
+
+      - name: Screenshots (iPhone + iPad simulator)
+        continue-on-error: true
+        run: |
+          mkdir -p build/screenshots
+          for FAMILY in iPhone iPad; do
+            UDID=$(python3 scripts/pick_simulator.py $FAMILY)
+            xcodebuild build -project iCloudIPA.xcodeproj -scheme iCloudIPA -destination "id=$UDID" \
+              -derivedDataPath build/dd-$FAMILY CODE_SIGNING_ALLOWED=NO -quiet
+            APP=$(find build/dd-$FAMILY/Build/Products -name "iCloud IPA.app" -maxdepth 3 | head -n 1)
+            xcrun simctl boot "$UDID" || true
+            xcrun simctl bootstatus "$UDID" -b
+            xcrun simctl install "$UDID" "$APP"
+            xcrun simctl launch "$UDID" com.aldiianshr.icloudipa -ICIPAScreenshotMode YES
+            sleep 12
+            xcrun simctl io "$UDID" screenshot "build/screenshots/$FAMILY-home.png"
+            xcrun simctl shutdown "$UDID" || true
+          done
+
+      - name: Build Release for device (arm64, unsigned) and package IPA
+        run: |
+          set -o pipefail
+          xcodebuild build -project iCloudIPA.xcodeproj -scheme iCloudIPA -configuration Release \
+            -sdk iphoneos -destination "generic/platform=iOS" -derivedDataPath build/dd-device \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" 2>&1 \
+            | tee "$LOGS/build-device.log" | grep -E "error:|BUILD (SUCCEEDED|FAILED)" || exit ${PIPESTATUS[0]}
+          APP="build/dd-device/Build/Products/Release-iphoneos/iCloud IPA.app"
+          scripts/package_ipa.sh "$APP" build/output 2>&1 | tee "$LOGS/package.log"
+          cp -R "$APP" build/output/
+
+      - name: Archive (unsigned .xcarchive for later signing)
+        run: |
+          set -o pipefail
+          xcodebuild archive -project iCloudIPA.xcodeproj -scheme iCloudIPA -configuration Release \
+            -destination "generic/platform=iOS" -archivePath "build/output/iCloud IPA.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" 2>&1 \
+            | tee "$LOGS/archive.log" | grep -E "error:|ARCHIVE (SUCCEEDED|FAILED)" || exit ${PIPESTATUS[0]}
+          cd build/output && ditto -c -k --keepParent "iCloud IPA.xcarchive" "iCloud IPA.xcarchive.zip"
+          ditto -c -k --keepParent "iCloud IPA.app" "iCloud IPA.app.zip"
+
+      - name: Bundle generated Xcode project
+        if: always()
+        run: |
+          mkdir -p build/output
+          [ -d iCloudIPA.xcodeproj ] && ditto -c -k --keepParent iCloudIPA.xcodeproj build/output/iCloudIPA.xcodeproj.zip || true
+
+      - name: Upload IPA
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iCloud-IPA-unsigned-ipa
+          path: build/output/iCloud IPA.ipa
+      - name: Upload app, archive & project
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iCloud-IPA-build-products
+          path: |
+            build/output/*.zip
+            build/screenshots
+          if-no-files-found: ignore
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: build/TestResults.xcresult
+          if-no-files-found: ignore
+
+      - name: Publish logs to ci-logs branch
+        if: always()
+        env:
+          RUN: ${{ github.run_number }}
+          STATUS: ${{ job.status }}
+          SHA: ${{ github.sha }}
+        run: |
+          SUM="$LOGS/SUMMARY.md"
+          {
+            echo "# Run $RUN — $STATUS — $SHA"
+            for f in "$LOGS"/*.log; do
+              echo "## $(basename "$f")"
+              grep -nE "error:|fatal error|Test Case.*failed|XCTAssert|BUILD FAILED|TEST FAILED|ARCHIVE FAILED|\*\* .* \*\*|Executed [0-9]+ test" "$f" | head -n 200 || true
+            done
+          } > "$SUM"
+          for f in "$LOGS"/*.log; do tail -n 1500 "$f" > "$f.tail" && mv "$f.tail" "$f"; done
+          cp build/screenshots/*.png "$LOGS/" 2>/dev/null || true
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          rm -rf /tmp/cilogs
+          if git clone --depth 1 --branch ci-logs "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" /tmp/cilogs 2>/dev/null; then :; else
+            mkdir /tmp/cilogs && cd /tmp/cilogs && git init -q && git checkout -q -b ci-logs && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" && cd -
+          fi
+          rm -rf /tmp/cilogs/latest && mkdir -p /tmp/cilogs/latest && cp -R "$LOGS"/. /tmp/cilogs/latest/
+          cd /tmp/cilogs && git add -A && git commit -qm "logs for run $RUN ($STATUS)" && git push -q origin ci-logs || echo "log publish skipped"

@@ -1,0 +1,17 @@
+// Shared build configuration for iCloud IPA.
+// Developer-only settings live here and in Secrets.xcconfig — never in the in-app user settings.
+
+APP_BUNDLE_ID = com.aldiianshr.icloudipa
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+
+// Google OAuth (iOS client). Real values come from Secrets.xcconfig (git-ignored) or CI secrets.
+// GOOGLE_IOS_CLIENT_ID     e.g. 1234567890-abcdefg.apps.googleusercontent.com
+// GOOGLE_REVERSED_CLIENT_ID e.g. com.googleusercontent.apps.1234567890-abcdefg
+GOOGLE_IOS_CLIENT_ID =
+GOOGLE_REVERSED_CLIENT_ID = com.aldiianshr.icloudipa.unconfigured
+
+// TeraBox web endpoint base (adapter is experimental; see docs/TERABOX.md)
+TERABOX_BASE_HOST = www.terabox.com
+
+#include? "Secrets.xcconfig"

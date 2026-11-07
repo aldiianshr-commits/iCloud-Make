@@ -1,0 +1,74 @@
+name: iCloudIPA
+options:
+  bundleIdPrefix: com.aldiianshr
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+  groupSortPosition: top
+configFiles:
+  Debug: Config/Debug.xcconfig
+  Release: Config/Release.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    ARCHS: arm64
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation
+    from: 0.9.19
+targets:
+  iCloudIPA:
+    type: application
+    platform: iOS
+    sources:
+      - path: iCloudIPA
+    dependencies:
+      - package: ZIPFoundation
+      - sdk: BackgroundTasks.framework
+      - sdk: Photos.framework
+      - sdk: Contacts.framework
+      - sdk: EventKit.framework
+      - sdk: LocalAuthentication.framework
+      - sdk: AuthenticationServices.framework
+      - sdk: WebKit.framework
+      - sdk: QuickLook.framework
+    settings:
+      base:
+        PRODUCT_NAME: "iCloud IPA"
+        PRODUCT_MODULE_NAME: iCloudIPA
+        PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID)
+        INFOPLIST_FILE: iCloudIPA/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: NO
+  iCloudIPATests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: iCloudIPATests
+    dependencies:
+      - target: iCloudIPA
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/iCloud IPA.app/iCloud IPA"
+        BUNDLE_LOADER: $(TEST_HOST)
+schemes:
+  iCloudIPA:
+    build:
+      targets:
+        iCloudIPA: all
+        iCloudIPATests: [test]
+    test:
+      config: Debug
+      gatherCoverageData: true
+      targets:
+        - iCloudIPATests
+    archive:
+      config: Release

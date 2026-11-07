@@ -1,0 +1,4 @@
+#include "Base.xcconfig"
+SWIFT_OPTIMIZATION_LEVEL = -O
+SWIFT_COMPILATION_MODE = wholemodule
+ICIPA_BUILD_FLAVOR = Release

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>iCloud IPA</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>id</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>GoogleOAuthRedirect</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(GOOGLE_REVERSED_CLIENT_ID)</string>
+			</array>
+		</dict>
+	</array>
+	<key>ICIPAGoogleClientID</key>
+	<string>$(GOOGLE_IOS_CLIENT_ID)</string>
+	<key>ICIPAGoogleRedirectScheme</key>
+	<string>$(GOOGLE_REVERSED_CLIENT_ID)</string>
+	<key>ICIPATeraBoxHost</key>
+	<string>$(TERABOX_BASE_HOST)</string>
+	<key>ICIPABuildFlavor</key>
+	<string>$(ICIPA_BUILD_FLAVOR)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSFaceIDUsageDescription</key>
+	<string>iCloud IPA uses Face ID to lock the app and protected folders.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>iCloud IPA backs up the photos and videos you choose to your connected cloud accounts.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>iCloud IPA restores photos and videos from your backups into your library.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>iCloud IPA backs up and restores your contacts when you enable Contacts backup.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>iCloud IPA backs up and restores calendar events when you enable Calendar backup.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>iCloud IPA backs up and restores calendar events when you enable Calendar backup.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>iCloud IPA backs up and restores reminders when you enable Reminders backup.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>iCloud IPA backs up and restores reminders when you enable Reminders backup.</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.aldiianshr.icloudipa.backup.processing</string>
+		<string>com.aldiianshr.icloudipa.backup.refresh</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
