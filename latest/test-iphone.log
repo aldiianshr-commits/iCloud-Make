@@ -53,8 +53,8 @@ ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/X
 
 ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/actool --version --output-format xml1
 
-Build description signature: 5ac68fe5e29eed684a96855ae400429b
-Build description path: /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/XCBuildData/5ac68fe5e29eed684a96855ae400429b.xcbuilddata
+Build description signature: db0b21b28fe994e9082f03dcb15191e3
+Build description path: /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/XCBuildData/db0b21b28fe994e9082f03dcb15191e3.xcbuilddata
 ClangStatCache /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache
     cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
     /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -o /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache
@@ -90,10 +90,6 @@ CreateBuildDirectory /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA
 CreateBuildDirectory /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks
     cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
     builtin-create-build-directory /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks
-
-WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.modulemap (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
-    write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.modulemap
 
 WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.hmap (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -151,13 +147,13 @@ WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-b
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests-OutputFileMap.json
 
-WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList
-
 WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.hmap (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.hmap
+
+WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList
 
 WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyMetadataFileList (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -226,6 +222,10 @@ WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-b
 WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation_ZIPFoundation.build/ZIPFoundation_ZIPFoundation.DependencyMetadataFileList (in target 'ZIPFoundation_ZIPFoundation' from project 'ZIPFoundation')
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
     write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation_ZIPFoundation.build/ZIPFoundation_ZIPFoundation.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.modulemap (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
+    write-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.modulemap
 
 WriteAuxiliaryFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.DependencyStaticMetadataFileList (in target 'ZIPFoundation' from project 'ZIPFoundation')
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
@@ -310,45 +310,45 @@ SwiftDriver ZIPFoundation normal arm64 com.apple.xcode.tools.swift.compiler (in 
     cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
     builtin-SwiftDriver -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZIPFoundation -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios12.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -suppress-warnings -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name zipfoundation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_const_extract_protocols.json -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj -experimental-emit-module-separately -disable-cmo
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_AvailabilityInternal-66PMRD5RMA2OSBL57QYFQGF21.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-BMJ09AFLK38X0QGI8JK2B96QM.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrcheck-22JFFANZK8AAX2NF94EHYIAHZ.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdbool-C9S1U5OBDXPT8A8346B3N1TBE.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftShims-2NHBA68CQIGMYK72EVWLB8XW.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrauth-2XXSBBIBBR37UVH1ROITQE3EC.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_float-D0J53W3COCFCKLRDJYJ8OGS70.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdarg-8V5CXXDU9KYC7JFEMHH7A9YDT.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_AvailabilityInternal-66PMRD5RMA2OSBL57QYFQGF21.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stddef-79QWFP1Q2UWUJWG9WOAIFOPKB.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation1-93SPP96XXYJ456RW48QZLM0VL.pcm
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrauth-2XXSBBIBBR37UVH1ROITQE3EC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftShims-2NHBA68CQIGMYK72EVWLB8XW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_float-D0J53W3COCFCKLRDJYJ8OGS70.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation2-DK25IWJSR6DOSCLC9ZXGDK6TN.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_limits-7YPGJ0OX33YEGDAZS05EP8I5I.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/sys_types-1QUI2K0FNNNTK44RDWLZJ1W7Y.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdint-1244MJNJRCIHFW58VLCKX0X3W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/sys_types-1QUI2K0FNNNTK44RDWLZJ1W7Y.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation3-8JI9NP37RJK8NK78HI57S9TGN.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_inttypes-8J8FWN6D9ZJO6TU6ST6FCGB3U.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/zlib-5M93HSHZ5OXAGPLDQ5J96LKAL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_inttypes-8J8FWN6D9ZJO6TU6ST6FCGB3U.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Darwin-12SBS1UBX89WTB62M4FE90JG5.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Compression-ETBG04SQM9YZER39G34KSB5K.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ObjectiveC-ECTPI3NLFU6IR9BL5B97DPI7Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Compression-ETBG04SQM9YZER39G34KSB5K.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os_object-7STPAUUQLXMKPBCU5W55J859Y.pcm
 
@@ -356,9 +356,9 @@ SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/D
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Dispatch-BBGSDEIWJIF61ZPIPDEBI1AT7.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreFoundation-4TKWWG1OUZVDZG9PWAKR8CW9T.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/XPC-F5CBQ91JO83INI2AX4DJO2928.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreFoundation-4TKWWG1OUZVDZG9PWAKR8CW9T.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Security-687WFTR09WYMX73YYHBQVKKNU.pcm
 
@@ -401,6 +401,36 @@ SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iClo
     cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
     
 
+SwiftCompile normal arm64 Compiling\ Date+ZIP.swift,\ Entry+Serialization.swift,\ Entry+ZIP64.swift,\ Entry.swift,\ FileManager+ZIP.swift,\ FileManager+ZIPDeprecated.swift,\ URL+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Date+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+Serialization.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+ZIP64.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/URL+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Date+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+Serialization.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+ZIP64.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
+SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/URL+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    
+
 SwiftCompile normal arm64 Compiling\ resource_bundle_accessor.swift,\ Archive+BackingConfiguration.swift,\ Archive+Deprecated.swift,\ Archive+Helpers.swift,\ Archive+MemoryFile.swift,\ Archive+Progress.swift,\ Archive+Reading.swift,\ Archive+ReadingDeprecated.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/resource_bundle_accessor.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+BackingConfiguration.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Deprecated.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Helpers.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+MemoryFile.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Progress.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Reading.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+ReadingDeprecated.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
 
 SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/resource_bundle_accessor.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
@@ -435,36 +465,6 @@ SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iClo
     cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
     
 
-SwiftCompile normal arm64 Compiling\ Date+ZIP.swift,\ Entry+Serialization.swift,\ Entry+ZIP64.swift,\ Entry.swift,\ FileManager+ZIP.swift,\ FileManager+ZIPDeprecated.swift,\ URL+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Date+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+Serialization.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+ZIP64.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/URL+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Date+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+Serialization.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+ZIP64.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
-SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation/Sources/ZIPFoundation/URL+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    
-
 SwiftDriverJobDiscovery normal arm64 Emitting module for ZIPFoundation (in target 'ZIPFoundation' from project 'ZIPFoundation')
 
 SwiftDriver\ Compilation\ Requirements ZIPFoundation normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZIPFoundation' from project 'ZIPFoundation')
@@ -472,6 +472,14 @@ SwiftDriver\ Compilation\ Requirements ZIPFoundation normal arm64 com.apple.xcod
     builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZIPFoundation -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios12.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -suppress-warnings -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name zipfoundation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_const_extract_protocols.json -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj -experimental-emit-module-separately -disable-cmo
 
 SwiftDriverJobDiscovery normal arm64 Compiling Date+ZIP.swift, Entry+Serialization.swift, Entry+ZIP64.swift, Entry.swift, FileManager+ZIP.swift, FileManager+ZIPDeprecated.swift, URL+ZIP.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+
+SwiftDriverJobDiscovery normal arm64 Compiling resource_bundle_accessor.swift, Archive+BackingConfiguration.swift, Archive+Deprecated.swift, Archive+Helpers.swift, Archive+MemoryFile.swift, Archive+Progress.swift, Archive+Reading.swift, Archive+ReadingDeprecated.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Archive+Writing.swift, Archive+WritingDeprecated.swift, Archive+ZIP64.swift, Archive.swift, Data+Compression.swift, Data+CompressionDeprecated.swift, Data+Serialization.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
+
+SwiftDriver\ Compilation ZIPFoundation normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
+    builtin-Swift-Compilation -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZIPFoundation -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios12.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -suppress-warnings -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name zipfoundation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_const_extract_protocols.json -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj -experimental-emit-module-separately -disable-cmo
 
 SwiftMergeGeneratedHeaders /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/ZIPFoundation-Swift.h /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-Swift.h (in target 'ZIPFoundation' from project 'ZIPFoundation')
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
@@ -493,13 +501,9 @@ Copy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqud
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftsourceinfo /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
 
-SwiftDriverJobDiscovery normal arm64 Compiling resource_bundle_accessor.swift, Archive+BackingConfiguration.swift, Archive+Deprecated.swift, Archive+Helpers.swift, Archive+MemoryFile.swift, Archive+Progress.swift, Archive+Reading.swift, Archive+ReadingDeprecated.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-
-SwiftDriverJobDiscovery normal arm64 Compiling Archive+Writing.swift, Archive+WritingDeprecated.swift, Archive+ZIP64.swift, Archive.swift, Data+Compression.swift, Data+CompressionDeprecated.swift, Data+Serialization.swift (in target 'ZIPFoundation' from project 'ZIPFoundation')
-
-SwiftDriver\ Compilation ZIPFoundation normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj
-    builtin-Swift-Compilation -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZIPFoundation -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios12.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -suppress-warnings -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name zipfoundation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_const_extract_protocols.json -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA.xcodeproj -experimental-emit-module-separately -disable-cmo
+Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o normal (in target 'ZIPFoundation' from project 'ZIPFoundation')
+    cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios12.0-simulator -r -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -w -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -L/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -filelist /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.LinkFileList -nostdlib -Xlinker -object_path_lto -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-linker-args.resp -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o
 
 ProcessProductPackaging "" /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -516,17 +520,13 @@ ProcessProductPackagingDER /Users/runner/Library/Developer/Xcode/DerivedData/iCl
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /usr/bin/derq query -f xml -i /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent.der --raw
 
-Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o normal (in target 'ZIPFoundation' from project 'ZIPFoundation')
-    cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
-    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios12.0-simulator -r -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -w -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -L/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -filelist /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.LinkFileList -nostdlib -Xlinker -object_path_lto -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-linker-args.resp -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o
+MkDir /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    /bin/mkdir -p /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned
 
 MkDir /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/unthinned (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /bin/mkdir -p /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/unthinned
-
-MkDir /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    /bin/mkdir -p /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned
 
 GenerateAssetSymbols /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Assets.xcassets (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -553,21 +553,21 @@ SwiftDriver iCloudIPA normal arm64 com.apple.xcode.tools.swift.compiler (in targ
 
 ExtractAppIntentsMetadata (in target 'ZIPFoundation' from project 'ZIPFoundation')
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
-    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.yN5VQ7/Metal.xctoolchain --module-name ZIPFoundation --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 12.0 --bundle-identifier zipfoundation.ZIPFoundation --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.appintents --target-triple arm64-apple-ios12.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftConstValuesFileList --force --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
-2026-11-07 07:46:01.809 appintentsmetadataprocessor[3646:15128] Starting appintentsmetadataprocessor export
-2026-11-07 07:46:02.087 appintentsmetadataprocessor[3646:15128] Extracted no relevant App Intents symbols, skipping writing output
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.7H7EJU/Metal.xctoolchain --module-name ZIPFoundation --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 12.0 --bundle-identifier zipfoundation.ZIPFoundation --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.appintents --target-triple arm64-apple-ios12.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/ZIPFoundation.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.SwiftConstValuesFileList --force --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-07 08:03:56.420 appintentsmetadataprocessor[4118:16270] Starting appintentsmetadataprocessor export
+2026-11-07 08:03:56.926 appintentsmetadataprocessor[4118:16270] Extracted no relevant App Intents symbols, skipping writing output
 
 RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o (in target 'ZIPFoundation' from project 'ZIPFoundation')
     cd /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/SourcePackages/checkouts/ZIPFoundation
     builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation.o
 
-Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/__preview.dylib normal (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -install_name @rpath/iCloud\ IPA.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/__preview.dylib
-
 CpResource /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PrivacyInfo.xcprivacy /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/PrivacyInfo.xcprivacy (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/PrivacyInfo.xcprivacy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app
+
+Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/__preview.dylib normal (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -install_name @rpath/iCloud\ IPA.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/__preview.dylib
 
 CopyStringsFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/id.lproj/Localizable.strings /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/id.lproj/Localizable.strings (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -619,27 +619,27 @@ Copy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqud
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Frameworks
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdarg-80ZVKY6E4LAN7AUQTEVS4RY7V.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrauth-CZL36FG0U9UDJOEX9L3FXUWIA.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrcheck-6MBIPEOAY3QFNOGD7KTTMFJDP.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stddef-7E87Y9J0BNCH4XX2IAP5XDESI.pcm
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_float-6MDK9TTC7Y990V1SQ766WW7N3.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdbool-1UXPX3B11292KP95VIAL067GG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdarg-80ZVKY6E4LAN7AUQTEVS4RY7V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-33CWZXW11OZOMTWZRLCD0C8RL.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_AvailabilityInternal-4V57YXGECA9I7A18YE4AZ18UT.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrcheck-6MBIPEOAY3QFNOGD7KTTMFJDP.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_float-6MDK9TTC7Y990V1SQ766WW7N3.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-8BG66MPCCFZ034WL46G8AIOMU.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftShims-6LCDW2X4QH61HTTYRGLQBESQW.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrauth-CZL36FG0U9UDJOEX9L3FXUWIA.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation1-3G1G2HIAH6SIFQYIS4IGRG9K5.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-33CWZXW11OZOMTWZRLCD0C8RL.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftShims-6LCDW2X4QH61HTTYRGLQBESQW.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_limits-2GYMI6Y6AKJGFCC0QMUX60YK3.pcm
 
@@ -647,147 +647,148 @@ SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/D
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation2-B5497BU8ON93WYKD76E2W130A.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_tgmath-2Z1ASP3VD7IZJNZW2BCQAV4TS.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/sys_types-5QLYYOGRMBZAAHJJMAP88HZNN.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdint-1OVBP598DZ3VJ55SGHRZ1C4D9.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-DR6RSGL8IBBY2GG5306ZP0H13.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_tgmath-2Z1ASP3VD7IZJNZW2BCQAV4TS.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation3-C8UVO5ZVDG973VE3DX4T12OBK.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-DR6RSGL8IBBY2GG5306ZP0H13.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-2XZ8UROLTLCI13Y1JP6QH2LP0.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/zlib-6SCVCU58HW30IVPY39SQMT9TH.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation3-C8UVO5ZVDG973VE3DX4T12OBK.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_inttypes-4Z6A8UX8B0YZJH0KTX924DI7X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/zlib-6SCVCU58HW30IVPY39SQMT9TH.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Darwin-6ZVD5NW04TCIQZ8726EP05A39.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/simd-DBMJFF248XW8DXTA4QUHZJ1WZ.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ObjectiveC-2IRV0CDRUFRYGXQH66GKVC4XR.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Compression-4YDMFT0WZBRU3VSYJE9BJ9UNL.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/MachO-4CQBMVXBOKSK2C9Z6XSTZSW3S.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ObjectiveC-2IRV0CDRUFRYGXQH66GKVC4XR.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Spatial-1LRC6TAWALEGJUK2Q5BJGPWS5.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/MachO-4CQBMVXBOKSK2C9Z6XSTZSW3S.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os_object-2758PO7LAOX6UMJPKISAZH9YU.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os_workgroup-BWFEHK3FDZ9DKOBII1N6WWDLI.pcm
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Spatial-1LRC6TAWALEGJUK2Q5BJGPWS5.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Dispatch-43L2DSGUH8RHE0QR4Q83CQF9C.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/XPC-CPXSBW94ITF2WX3R678JNHCYF.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/dnssd-EMZ5FTLAWBHNNLCX8V0L0GE69.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreFoundation-AJWFL3GD51D9IUVH2LV6D6HP2.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os-BDOG33IB6KQOBMDJOUNVF3T9M.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Security-54VT4O3II9P0ST7N8CF014ESH.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreAudioTypes-4LR6M65Z6YLB8E9JBZXJ6H09C.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/dnssd-EMZ5FTLAWBHNNLCX8V0L0GE69.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CFNetwork-ASE9SLVVXF6GUCM7S844D8K9C.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreAudio-1JHUEYMCOMZUR5TXZ7EC9OWP5.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AddressBook-9K40GXPPIB8OP8Y4NZ3ODL98Y.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreGraphics-CTHKLL96U3DCYFOSTO6MXH930.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Foundation-7HFQENLCUQJQREKF9ZLJ50PC5.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreAudioTypes-4LR6M65Z6YLB8E9JBZXJ6H09C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Security-54VT4O3II9P0ST7N8CF014ESH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreAudio-1JHUEYMCOMZUR5TXZ7EC9OWP5.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ImageIO-6PBSX0EYTP8X400C9MG4LADUX.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreText-F58TJC839JZB2DJ01TC1Z4YHL.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreTransferable-5JEXE1NIWJVMJ3EYIBJBURR9K.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/XPC-CPXSBW94ITF2WX3R678JNHCYF.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/BackgroundTasks-E8KH0XT51IMX7KANML27YDLT4.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os-BDOG33IB6KQOBMDJOUNVF3T9M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Foundation-7HFQENLCUQJQREKF9ZLJ50PC5.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UserNotifications-5GKI6XQ86U8Q1TD2H7CXMXQDD.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Symbols-D5QQG547RCDBUN3J9S5LKUM2S.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DataDetection-1TMDP7GX8NWQVAM8USPT5JMD3.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Network-DEXPE07AE5VZXCGTBVE1AVZK0.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/LocalAuthentication-6DBT0QH0OM2O917OUSW5190T5.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UIUtilities-202TAD0X89CDF4MKIHELUTP14.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AVRouting-7X01VG0PO9Z9KLVXFMAE6TCK3.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-2S1BDQTEKO5TI7VAWKY25YF5F.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Contacts-5MGQL0GA7K52OL0RMVQ2DQESB.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreData-EVB5CDSP53FTVTC07TU1YORII.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/OSLog-BP9Q4EAVMM7Y34WGM0BO48XTJ.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/FileProvider-DV9JY4DMOYOUNB5ZGBVDL2JXP.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/OpenGLES-6KMO59LISEY5AL07BUBBCDPOH.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Accessibility-6FG87DK9SPI4T0QHFCHM4NFZE.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_LocationEssentials-4KKALQ8I5LIQIUYGQ6XKCZ7U.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/IOSurface-4C7FWRJH8NB3N52BUKSWZONAS.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreMIDI-SLA7BSRTVLMKU05GD72WRKK7.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreLocation-DMAPPBH0GUP37EDJ0RNGZIA4E.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Metal-52IQ97TX69Z6C2TZ3UKJUJSXC.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AudioToolbox-9OOJFSBLQZAU69WU1612XHP5P.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/EventKit-A8OUDCTQEYSIKD8201DJISNBY.pcm
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreVideo-2QKOEU1UUQKSK5VD1NT1IIWO0.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DataDetection-1TMDP7GX8NWQVAM8USPT5JMD3.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/QuickLookThumbnailing-11M5MHQBAZ3B1N28P23W9S2UJ.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreImage-4X56MDIG2UE4ZR59NHN6BRBCR.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Contacts-5MGQL0GA7K52OL0RMVQ2DQESB.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreMedia-CQOFBJH4HQAABC9JRQ4SM3BDN.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Network-DEXPE07AE5VZXCGTBVE1AVZK0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreMIDI-SLA7BSRTVLMKU05GD72WRKK7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/LocalAuthentication-6DBT0QH0OM2O917OUSW5190T5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Symbols-D5QQG547RCDBUN3J9S5LKUM2S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/OSLog-BP9Q4EAVMM7Y34WGM0BO48XTJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/BackgroundTasks-E8KH0XT51IMX7KANML27YDLT4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreData-EVB5CDSP53FTVTC07TU1YORII.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/IOSurface-4C7FWRJH8NB3N52BUKSWZONAS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/FileProvider-DV9JY4DMOYOUNB5ZGBVDL2JXP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Metal-52IQ97TX69Z6C2TZ3UKJUJSXC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreTransferable-5JEXE1NIWJVMJ3EYIBJBURR9K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AudioToolbox-9OOJFSBLQZAU69WU1612XHP5P.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Accessibility-6FG87DK9SPI4T0QHFCHM4NFZE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreVideo-2QKOEU1UUQKSK5VD1NT1IIWO0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_LocationEssentials-4KKALQ8I5LIQIUYGQ6XKCZ7U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UIUtilities-202TAD0X89CDF4MKIHELUTP14.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreLocation-DMAPPBH0GUP37EDJ0RNGZIA4E.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/QuartzCore-117MK44TAWGER1D783CQB3Y5I.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/MediaToolbox-D15JSIH16ICZQB9LRA3H3QXCT.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreImage-4X56MDIG2UE4ZR59NHN6BRBCR.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AVFAudio-BICPTFD1PG4FGK70UAZUWZ5FY.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/EventKit-A8OUDCTQEYSIKD8201DJISNBY.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftUICore-4TCNI7XKP1QKKP2VT2SUY7FI4.pcm
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreMedia-CQOFBJH4HQAABC9JRQ4SM3BDN.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UIKit-8RQC2X6V7NLLPT9V0L33T8DW2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AVRouting-7X01VG0PO9Z9KLVXFMAE6TCK3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AVFAudio-BICPTFD1PG4FGK70UAZUWZ5FY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/MediaToolbox-D15JSIH16ICZQB9LRA3H3QXCT.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AVFoundation-6R2MUM0QI619M1TEWEHLEJDTW.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Photos-5DC6UTFS4YJBA5FAJ2SCK1D6Q.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/PDFKit-3AE22NGTFZ3VCUKSLB2KWBZE5.pcm
-
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ExtensionKit-19MQE9TSC7YTH8MS45FH238ZV.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AuthenticationServices-DND0NGO69FXP6N4883QRFPLNG.pcm
 
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/WebKit-ET57WEK4V6JCTQG39PVUON8RG.pcm
+
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftUI-50Q7NE2MBQ5VQPFPPUZY5A0ML.pcm
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/WebKit-ET57WEK4V6JCTQG39PVUON8RG.pcm
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/PDFKit-3AE22NGTFZ3VCUKSLB2KWBZE5.pcm
 
 SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/QuickLook-AJKE47RW91K1UVLI6LKV31D7E.pcm
 
 SwiftEmitModule normal arm64 Emitting\ module\ for\ iCloudIPA (in target 'iCloudIPA' from project 'iCloudIPA')
+
 EmitSwiftModule normal arm64 (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
@@ -803,6 +804,55 @@ extension BackupRun: Sendable {
 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/Models.swift:267:1: note: in expansion of macro 'Model' on class 'BackupRun' here
 @Model
 ^~~~~~
+
+SwiftCompile normal arm64 Compiling\ DataStore.swift,\ FileEncryptor.swift,\ FileSheets.swift,\ FilesView.swift,\ GoogleAuth.swift,\ GoogleDriveProvider.swift,\ HTTP.swift,\ HomeView.swift,\ ICSWriter.swift,\ KeychainStore.swift,\ Localization.swift,\ Models.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/DataStore.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/FileEncryptor.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FileSheets.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FilesView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Auth/GoogleAuth.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/GoogleDriveProvider.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/HTTP.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Home/HomeView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/ICSWriter.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/KeychainStore.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/Localization.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/DataStore.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/FileEncryptor.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FileSheets.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FilesView.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Auth/GoogleAuth.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/GoogleDriveProvider.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/HTTP.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Home/HomeView.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/ICSWriter.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/KeychainStore.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/Localization.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
 
 SwiftCompile normal arm64 Compiling\ RestoreEngine.swift,\ RestoreView.swift,\ RootView.swift,\ SettingsView.swift,\ StorageDashboardView.swift,\ StorageServices.swift,\ TeraBoxLogin.swift,\ TeraBoxProvider.swift,\ TransferManager.swift,\ Utilities.swift,\ iCloudIPAApp.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/RestoreEngine.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Backup/RestoreView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/RootView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Settings/SettingsView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Home/StorageDashboardView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Storage/StorageServices.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Auth/TeraBoxLogin.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/TeraBoxProvider.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Transfer/TransferManager.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/Utilities.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/App/iCloudIPAApp.swift /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'iCloudIPA' from project 'iCloudIPA')
 SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/RestoreEngine.swift (in target 'iCloudIPA' from project 'iCloudIPA')
@@ -865,71 +915,18 @@ SwiftCompile normal arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iClo
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
 
-SwiftCompile normal arm64 Compiling\ DataStore.swift,\ FileEncryptor.swift,\ FileSheets.swift,\ FilesView.swift,\ GoogleAuth.swift,\ GoogleDriveProvider.swift,\ HTTP.swift,\ HomeView.swift,\ ICSWriter.swift,\ KeychainStore.swift,\ Localization.swift,\ Models.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/DataStore.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/FileEncryptor.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FileSheets.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FilesView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Auth/GoogleAuth.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/GoogleDriveProvider.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/HTTP.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Home/HomeView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/ICSWriter.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/KeychainStore.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/Localization.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/DataStore.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/FileEncryptor.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FileSheets.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Files/FilesView.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Auth/GoogleAuth.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/GoogleDriveProvider.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/HTTP.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Home/HomeView.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/ICSWriter.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/KeychainStore.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/Localization.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Database/Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-LinkAssetCatalog /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Assets.xcassets (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    builtin-linkAssetCatalog --thinned /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app --plist-output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist
-note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/AppIcon76x76@2x~ipad.png (in target 'iCloudIPA' from project 'iCloudIPA')
-note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/Assets.car (in target 'iCloudIPA' from project 'iCloudIPA')
-note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/AppIcon60x60@2x.png (in target 'iCloudIPA' from project 'iCloudIPA')
-
 SwiftDriverJobDiscovery normal arm64 Emitting module for iCloudIPA (in target 'iCloudIPA' from project 'iCloudIPA')
 
 SwiftDriver\ Compilation\ Requirements iCloudIPA normal arm64 com.apple.xcode.tools.swift.compiler (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name iCloudIPA -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-generated-files.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-own-target-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA-9b45a0f908fa8752c15197e9edef356f-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-project-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make -experimental-emit-module-separately -disable-cmo
 
-ProcessInfoPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Info.plist /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Info.plist (in target 'iCloudIPA' from project 'iCloudIPA')
+LinkAssetCatalog /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Assets.xcassets (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
-    builtin-infoPlistUtility /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist -scanforprivacyfile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/ZIPFoundation_ZIPFoundation.bundle -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Info.plist
+    builtin-linkAssetCatalog --thinned /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app --plist-output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/AppIcon76x76@2x~ipad.png (in target 'iCloudIPA' from project 'iCloudIPA')
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/AppIcon60x60@2x.png (in target 'iCloudIPA' from project 'iCloudIPA')
+note: Emplaced /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud IPA.app/Assets.car (in target 'iCloudIPA' from project 'iCloudIPA')
 
 SwiftCompile normal arm64 Compiling\ AccountManager.swift,\ AccountsView.swift,\ AppConfig.swift,\ AppEnvironment.swift,\ AppLock.swift,\ AppSettings.swift,\ BackgroundTransferService.swift,\ BackupEngine.swift,\ BackupScheduler.swift,\ BackupSources.swift,\ BackupView.swift,\ CloudProvider.swift,\ Components.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/AccountManager.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Accounts/AccountsView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Config/AppConfig.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/App/AppEnvironment.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Security/AppLock.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Core/AppSettings.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Transfer/BackgroundTransferService.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/BackupEngine.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/BackupScheduler.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Backup/BackupSources.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Backup/BackupView.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Providers/CloudProvider.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/UI/Components/Components.swift (in target 'iCloudIPA' from project 'iCloudIPA')
 
@@ -1043,7 +1040,7 @@ SwiftMergeGeneratedHeaders /Users/runner/Library/Developer/Xcode/DerivedData/iCl
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-swiftHeaderTool -arch arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA-Swift.h -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/DerivedSources/iCloudIPA-Swift.h
 
-SwiftDriverJobDiscovery normal arm64 Compiling AccountManager.swift, AccountsView.swift, AppConfig.swift, AppEnvironment.swift, AppLock.swift, AppSettings.swift, BackgroundTransferService.swift, BackupEngine.swift, BackupScheduler.swift, BackupSources.swift, BackupView.swift, CloudProvider.swift, Components.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+SwiftDriverJobDiscovery normal arm64 Compiling DataStore.swift, FileEncryptor.swift, FileSheets.swift, FilesView.swift, GoogleAuth.swift, GoogleDriveProvider.swift, HTTP.swift, HomeView.swift, ICSWriter.swift, KeychainStore.swift, Localization.swift, Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
 
 Copy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloudIPA.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA.swiftmodule (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -1061,13 +1058,17 @@ Copy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqud
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA.swiftsourceinfo /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloudIPA.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
 
+ProcessInfoPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Info.plist /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Info.plist (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    builtin-infoPlistUtility /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPA/Resources/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/assetcatalog_generated_info.plist -scanforprivacyfile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/ZIPFoundation_ZIPFoundation.bundle -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Info.plist
+
 SwiftDriver iCloudIPATests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-SwiftDriver -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name iCloudIPATests -Onone -enforce-exclusivity\=checked @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-dc75598d0054f22ec865fa860f139d72e244bd9a5feaf902f95f61bf06266e52.sdkstatcache -output-file-map /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests-generated-files.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests-own-target-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA-9b45a0f908fa8752c15197e9edef356f-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests-project-headers.hmap -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/DerivedSources/arm64 -Xcc -I/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests-Swift.h -working-directory /Users/runner/work/iCloud-Make/iCloud-Make -experimental-emit-module-separately -disable-cmo
 
-SwiftDriverJobDiscovery normal arm64 Compiling RestoreEngine.swift, RestoreView.swift, RootView.swift, SettingsView.swift, StorageDashboardView.swift, StorageServices.swift, TeraBoxLogin.swift, TeraBoxProvider.swift, TransferManager.swift, Utilities.swift, iCloudIPAApp.swift, GeneratedAssetSymbols.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+SwiftDriverJobDiscovery normal arm64 Compiling AccountManager.swift, AccountsView.swift, AppConfig.swift, AppEnvironment.swift, AppLock.swift, AppSettings.swift, BackgroundTransferService.swift, BackupEngine.swift, BackupScheduler.swift, BackupSources.swift, BackupView.swift, CloudProvider.swift, Components.swift (in target 'iCloudIPA' from project 'iCloudIPA')
 
-SwiftDriverJobDiscovery normal arm64 Compiling DataStore.swift, FileEncryptor.swift, FileSheets.swift, FilesView.swift, GoogleAuth.swift, GoogleDriveProvider.swift, HTTP.swift, HomeView.swift, ICSWriter.swift, KeychainStore.swift, Localization.swift, Models.swift (in target 'iCloudIPA' from project 'iCloudIPA')
+SwiftDriverJobDiscovery normal arm64 Compiling RestoreEngine.swift, RestoreView.swift, RootView.swift, SettingsView.swift, StorageDashboardView.swift, StorageServices.swift, TeraBoxLogin.swift, TeraBoxProvider.swift, TransferManager.swift, Utilities.swift, iCloudIPAApp.swift, GeneratedAssetSymbols.swift (in target 'iCloudIPA' from project 'iCloudIPA')
 
 SwiftDriver\ Compilation iCloudIPA normal arm64 com.apple.xcode.tools.swift.compiler (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -1076,6 +1077,14 @@ SwiftDriver\ Compilation iCloudIPA normal arm64 com.apple.xcode.tools.swift.comp
 Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA.debug.dylib normal (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -filelist /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.LinkFileList -install_name @rpath/iCloud\ IPA.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_dependency_info.dat -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA.swiftmodule @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloudIPA-linker-args.resp -Wl,-no_warn_duplicate_libraries -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework BackgroundTasks -framework Photos -framework Contacts -framework EventKit -framework LocalAuthentication -framework AuthenticationServices -framework WebKit -framework QuickLook -Xlinker -no_adhoc_codesign -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA.debug.dylib -Xlinker -add_ast_path -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation.swiftmodule @/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/ZIPFoundation.build/Debug-iphonesimulator/ZIPFoundation.build/Objects-normal/arm64/ZIPFoundation-linker-args.resp
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-1IBJEV88IV4O76XEROAU7LMQO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-44J584GYLCNGQC6OZHI5G2X35.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-2UTKUQ40L7Q1H.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-2NCIBZJYL0EAL.swiftmodule
 
 ConstructStubExecutorLinkFileList /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-ExecutorLinkFileList-normal-arm64.txt (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -1086,23 +1095,21 @@ Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvy
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/PackageFrameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.app-Simulated.xcent.der /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA
 
-ExtractAppIntentsMetadata (in target 'iCloudIPA' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.yN5VQ7/Metal.xctoolchain --module-name iCloudIPA --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.aldiianshr.icloudipa --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
-2026-11-07 07:46:31.386 appintentsmetadataprocessor[5015:18587] Starting appintentsmetadataprocessor export
-2026-11-07 07:46:31.395 appintentsmetadataprocessor[5015:18587] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
-
 CopySwiftLibs /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
-    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA.debug.dylib --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Extensions --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/BackgroundTasks.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/Photos.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/Contacts.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/LocalAuthentication.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/AuthenticationServices.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/WebKit.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/QuickLook.framework --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.yN5VQ7/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA.debug.dylib --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Extensions --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/BackgroundTasks.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/Photos.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/Contacts.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/LocalAuthentication.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/AuthenticationServices.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/WebKit.framework --scan-folder /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/System/Library/Frameworks/QuickLook.framework --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.7H7EJU/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
 
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-1IBJEV88IV4O76XEROAU7LMQO.pcm
+ExtractAppIntentsMetadata (in target 'iCloudIPA' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.7H7EJU/Metal.xctoolchain --module-name iCloudIPA --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.aldiianshr.icloudipa --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/iCloud\ IPA --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/Objects-normal/arm64/iCloud\ IPA.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-07 08:04:20.436 appintentsmetadataprocessor[4824:18190] Starting appintentsmetadataprocessor export
+2026-11-07 08:04:20.439 appintentsmetadataprocessor[4824:18190] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
 
 AppIntentsSSUTraining (in target 'iCloudIPA' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/ssu --bundle-id com.aldiianshr.icloudipa --product-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPA.build/iCloud\ IPA.DependencyMetadataFileList --archive-ssu-assets
-2026-11-07 07:46:31.448 appintentsnltrainingprocessor[5017:18590] Parsing options for appintentsnltrainingprocessor
-2026-11-07 07:46:31.452 appintentsnltrainingprocessor[5017:18590] No AppShortcuts found - Skipping.
+2026-11-07 08:04:20.469 appintentsnltrainingprocessor[4825:18191] Parsing options for appintentsnltrainingprocessor
+2026-11-07 08:04:20.472 appintentsnltrainingprocessor[4825:18191] No AppShortcuts found - Skipping.
 
 Copy /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/ZIPFoundation_ZIPFoundation.bundle /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/ZIPFoundation_ZIPFoundation.bundle (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -1112,24 +1119,29 @@ ProcessInfoPlistFile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     builtin-infoPlistUtility /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/empty-iCloudIPATests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -scanforprivacyfile /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/ZIPFoundation_ZIPFoundation.bundle -o /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Info.plist
 
-SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-2UTKUQ40L7Q1H.swiftmodule
-
-SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-44J584GYLCNGQC6OZHI5G2X35.pcm
-
-SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-2NCIBZJYL0EAL.swiftmodule
-
 SwiftEmitModule normal arm64 Emitting\ module\ for\ iCloudIPATests (in target 'iCloudIPATests' from project 'iCloudIPA')
 
 EmitSwiftModule normal arm64 (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
 
+SwiftCompile normal arm64 Compiling\ EngineTests.swift,\ LiveProviderTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/EngineTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/EngineTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
+SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
+    cd /Users/runner/work/iCloud-Make/iCloud-Make
+    
+
 SwiftCompile normal arm64 Compiling\ SecurityTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/SecurityTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
+
 SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/SecurityTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
 
 SwiftCompile normal arm64 Compiling\ MockProvider.swift,\ ProviderTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/MockProvider.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/ProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
+
 SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/MockProvider.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
@@ -1159,15 +1171,6 @@ open func unlock()}
           ^
 
 SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/ProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 Compiling\ EngineTests.swift,\ LiveProviderTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/EngineTests.swift /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/EngineTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
-    cd /Users/runner/work/iCloud-Make/iCloud-Make
-    
-
-SwiftCompile normal arm64 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     
 
@@ -1213,19 +1216,19 @@ Ld /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvy
 
 CopySwiftLibs /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
-    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/iCloudIPATests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.yN5VQ7/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/iCloudIPATests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.7H7EJU/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
 
 ExtractAppIntentsMetadata (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
-    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.yN5VQ7/Metal.xctoolchain --module-name iCloudIPATests --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.aldiianshr.icloudipa.tests --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/iCloudIPATests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
-2026-11-07 07:46:33.896 appintentsmetadataprocessor[5042:18670] Starting appintentsmetadataprocessor export
-2026-11-07 07:46:33.898 appintentsmetadataprocessor[5042:18670] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.7H7EJU/Metal.xctoolchain --module-name iCloudIPATests --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.aldiianshr.icloudipa.tests --output /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/iCloudIPATests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/Objects-normal/arm64/iCloudIPATests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-07 08:04:21.904 appintentsmetadataprocessor[4837:18259] Starting appintentsmetadataprocessor export
+2026-11-07 08:04:21.906 appintentsmetadataprocessor[4837:18259] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
 
 AppIntentsSSUTraining (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/ssu --bundle-id com.aldiianshr.icloudipa.tests --product-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Intermediates.noindex/iCloudIPA.build/Debug-iphonesimulator/iCloudIPATests.build/iCloudIPATests.DependencyMetadataFileList --archive-ssu-assets
-2026-11-07 07:46:33.921 appintentsnltrainingprocessor[5043:18673] Parsing options for appintentsnltrainingprocessor
-2026-11-07 07:46:33.922 appintentsnltrainingprocessor[5043:18673] No AppShortcuts found - Skipping.
+2026-11-07 08:04:21.923 appintentsnltrainingprocessor[4838:18260] Parsing options for appintentsnltrainingprocessor
+2026-11-07 08:04:21.924 appintentsnltrainingprocessor[4838:18260] No AppShortcuts found - Skipping.
 
 CodeSign /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app/PlugIns/iCloudIPATests.xctest (in target 'iCloudIPATests' from project 'iCloudIPA')
     cd /Users/runner/work/iCloud-Make/iCloud-Make
@@ -1275,172 +1278,172 @@ Touch /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqu
     cd /Users/runner/work/iCloud-Make/iCloud-Make
     /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/iCloudIPA-bnjydokifpjlqudvykkcvhwcedfl/Build/Products/Debug-iphonesimulator/iCloud\ IPA.app
 
-Test Suite 'All tests' started at 2026-11-07 07:49:17.371.
-Test Suite 'iCloudIPATests.xctest' started at 2026-11-07 07:49:17.372.
-Test Suite 'AppLockTests' started at 2026-11-07 07:49:17.372.
+Test Suite 'All tests' started at 2026-11-07 08:06:41.307.
+Test Suite 'iCloudIPATests.xctest' started at 2026-11-07 08:06:41.309.
+Test Suite 'AppLockTests' started at 2026-11-07 08:06:41.309.
 Test Case '-[iCloudIPATests.AppLockTests testEnableRequiresAuthenticationAndLocksAfterGrace]' started.
-Test Case '-[iCloudIPATests.AppLockTests testEnableRequiresAuthenticationAndLocksAfterGrace]' passed (0.013 seconds).
+Test Case '-[iCloudIPATests.AppLockTests testEnableRequiresAuthenticationAndLocksAfterGrace]' passed (0.017 seconds).
 Test Case '-[iCloudIPATests.AppLockTests testProtectedFolderUnlockIsPerSession]' started.
-Test Case '-[iCloudIPATests.AppLockTests testProtectedFolderUnlockIsPerSession]' passed (0.005 seconds).
-Test Suite 'AppLockTests' passed at 2026-11-07 07:49:17.391.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.018 (0.020) seconds
-Test Suite 'BackupPlanningTests' started at 2026-11-07 07:49:17.392.
+Test Case '-[iCloudIPATests.AppLockTests testProtectedFolderUnlockIsPerSession]' passed (0.006 seconds).
+Test Suite 'AppLockTests' passed at 2026-11-07 08:06:41.334.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.023 (0.025) seconds
+Test Suite 'BackupPlanningTests' started at 2026-11-07 08:06:41.334.
 Test Case '-[iCloudIPATests.BackupPlanningTests testChangingDestinationAccountReuploads]' started.
-Test Case '-[iCloudIPATests.BackupPlanningTests testChangingDestinationAccountReuploads]' passed (0.001 seconds).
+Test Case '-[iCloudIPATests.BackupPlanningTests testChangingDestinationAccountReuploads]' passed (0.117 seconds).
 Test Case '-[iCloudIPATests.BackupPlanningTests testFullBackupUploadsEverything]' started.
 Test Case '-[iCloudIPATests.BackupPlanningTests testFullBackupUploadsEverything]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.BackupPlanningTests testIncrementalSkipsUnchangedAndDetectsChangesAndDeletions]' started.
-Test Case '-[iCloudIPATests.BackupPlanningTests testIncrementalSkipsUnchangedAndDetectsChangesAndDeletions]' passed (0.002 seconds).
+Test Case '-[iCloudIPATests.BackupPlanningTests testIncrementalSkipsUnchangedAndDetectsChangesAndDeletions]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.BackupPlanningTests testScheduleDueDates]' started.
 Test Case '-[iCloudIPATests.BackupPlanningTests testScheduleDueDates]' passed (0.002 seconds).
 Test Case '-[iCloudIPATests.BackupPlanningTests testSnapshotNames]' started.
-Test Case '-[iCloudIPATests.BackupPlanningTests testSnapshotNames]' passed (0.003 seconds).
-Test Suite 'BackupPlanningTests' passed at 2026-11-07 07:49:17.487.
-	 Executed 5 tests, with 0 failures (0 unexpected) in 0.008 (0.095) seconds
-Test Suite 'EncryptionTests' started at 2026-11-07 07:49:17.487.
+Test Case '-[iCloudIPATests.BackupPlanningTests testSnapshotNames]' passed (0.002 seconds).
+Test Suite 'BackupPlanningTests' passed at 2026-11-07 08:06:42.260.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.122 (0.926) seconds
+Test Suite 'EncryptionTests' started at 2026-11-07 08:06:42.261.
 Test Case '-[iCloudIPATests.EncryptionTests testKeychainStoreRoundTrip]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testKeychainStoreRoundTrip]' passed (0.061 seconds).
+Test Case '-[iCloudIPATests.EncryptionTests testKeychainStoreRoundTrip]' passed (0.043 seconds).
 Test Case '-[iCloudIPATests.EncryptionTests testRecoveryKeyRoundTripAndChecksum]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testRecoveryKeyRoundTripAndChecksum]' passed (0.003 seconds).
+Test Case '-[iCloudIPATests.EncryptionTests testRecoveryKeyRoundTripAndChecksum]' passed (0.005 seconds).
 Test Case '-[iCloudIPATests.EncryptionTests testRoundTripEmptySmallAndMultiChunk]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testRoundTripEmptySmallAndMultiChunk]' passed (0.013 seconds).
+Test Case '-[iCloudIPATests.EncryptionTests testRoundTripEmptySmallAndMultiChunk]' passed (0.011 seconds).
 Test Case '-[iCloudIPATests.EncryptionTests testSealOpenSmallPayload]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testSealOpenSmallPayload]' passed (0.000 seconds).
+Test Case '-[iCloudIPATests.EncryptionTests testSealOpenSmallPayload]' passed (0.024 seconds).
 Test Case '-[iCloudIPATests.EncryptionTests testTamperingAndTruncationAreDetected]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testTamperingAndTruncationAreDetected]' passed (0.007 seconds).
+Test Case '-[iCloudIPATests.EncryptionTests testTamperingAndTruncationAreDetected]' passed (0.008 seconds).
 Test Case '-[iCloudIPATests.EncryptionTests testWrongKeyFails]' started.
-Test Case '-[iCloudIPATests.EncryptionTests testWrongKeyFails]' passed (0.006 seconds).
-Test Suite 'EncryptionTests' passed at 2026-11-07 07:49:17.838.
-	 Executed 6 tests, with 0 failures (0 unexpected) in 0.091 (0.351) seconds
-Test Suite 'GoogleDriveParsingTests' started at 2026-11-07 07:49:17.838.
+Test Case '-[iCloudIPATests.EncryptionTests testWrongKeyFails]' passed (0.004 seconds).
+Test Suite 'EncryptionTests' passed at 2026-11-07 08:06:42.359.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.095 (0.099) seconds
+Test Suite 'GoogleDriveParsingTests' started at 2026-11-07 08:06:42.360.
 Test Case '-[iCloudIPATests.GoogleDriveParsingTests testDriveFileDecoding]' started.
-Test Case '-[iCloudIPATests.GoogleDriveParsingTests testDriveFileDecoding]' passed (0.015 seconds).
+Test Case '-[iCloudIPATests.GoogleDriveParsingTests testDriveFileDecoding]' passed (0.025 seconds).
 Test Case '-[iCloudIPATests.GoogleDriveParsingTests testErrorMapping]' started.
-Test Case '-[iCloudIPATests.GoogleDriveParsingTests testErrorMapping]' passed (0.009 seconds).
+Test Case '-[iCloudIPATests.GoogleDriveParsingTests testErrorMapping]' passed (0.024 seconds).
 Test Case '-[iCloudIPATests.GoogleDriveParsingTests testExportFormatsForGoogleDocs]' started.
 Test Case '-[iCloudIPATests.GoogleDriveParsingTests testExportFormatsForGoogleDocs]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.GoogleDriveParsingTests testRangeHeaderAndQueryEscaping]' started.
-Test Case '-[iCloudIPATests.GoogleDriveParsingTests testRangeHeaderAndQueryEscaping]' passed (0.002 seconds).
-Test Suite 'GoogleDriveParsingTests' passed at 2026-11-07 07:49:17.868.
-	 Executed 4 tests, with 0 failures (0 unexpected) in 0.027 (0.029) seconds
-Test Suite 'GoogleOAuthTests' started at 2026-11-07 07:49:17.868.
+Test Case '-[iCloudIPATests.GoogleDriveParsingTests testRangeHeaderAndQueryEscaping]' passed (0.001 seconds).
+Test Suite 'GoogleDriveParsingTests' passed at 2026-11-07 08:06:42.431.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.051 (0.072) seconds
+Test Suite 'GoogleOAuthTests' started at 2026-11-07 08:06:42.432.
 Test Case '-[iCloudIPATests.GoogleOAuthTests testAuthorizationURLContainsRequiredParameters]' started.
-Test Case '-[iCloudIPATests.GoogleOAuthTests testAuthorizationURLContainsRequiredParameters]' passed (0.004 seconds).
+Test Case '-[iCloudIPATests.GoogleOAuthTests testAuthorizationURLContainsRequiredParameters]' passed (0.054 seconds).
 Test Case '-[iCloudIPATests.GoogleOAuthTests testCallbackParsing]' started.
 Test Case '-[iCloudIPATests.GoogleOAuthTests testCallbackParsing]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.GoogleOAuthTests testFormBodyEncodesReservedCharacters]' started.
-Test Case '-[iCloudIPATests.GoogleOAuthTests testFormBodyEncodesReservedCharacters]' passed (0.000 seconds).
+Test Case '-[iCloudIPATests.GoogleOAuthTests testFormBodyEncodesReservedCharacters]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.GoogleOAuthTests testPKCEChallengeMatchesRFCVector]' started.
 Test Case '-[iCloudIPATests.GoogleOAuthTests testPKCEChallengeMatchesRFCVector]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.GoogleOAuthTests testTokenErrorMapping]' started.
-Test Case '-[iCloudIPATests.GoogleOAuthTests testTokenErrorMapping]' passed (0.008 seconds).
-Test Suite 'GoogleOAuthTests' passed at 2026-11-07 07:49:17.900.
-	 Executed 5 tests, with 0 failures (0 unexpected) in 0.015 (0.033) seconds
-Test Suite 'HashingTests' started at 2026-11-07 07:49:17.901.
+Test Case '-[iCloudIPATests.GoogleOAuthTests testTokenErrorMapping]' passed (0.004 seconds).
+Test Suite 'GoogleOAuthTests' passed at 2026-11-07 08:06:42.671.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.059 (0.239) seconds
+Test Suite 'HashingTests' started at 2026-11-07 08:06:42.671.
 Test Case '-[iCloudIPATests.HashingTests testKnownVectors]' started.
-Test Case '-[iCloudIPATests.HashingTests testKnownVectors]' passed (0.001 seconds).
+Test Case '-[iCloudIPATests.HashingTests testKnownVectors]' passed (0.002 seconds).
 Test Case '-[iCloudIPATests.HashingTests testStreamingMatchesInMemory]' started.
-Test Case '-[iCloudIPATests.HashingTests testStreamingMatchesInMemory]' passed (0.030 seconds).
-Test Suite 'HashingTests' passed at 2026-11-07 07:49:17.934.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.032 (0.033) seconds
-Test Suite 'ICSWriterTests' started at 2026-11-07 07:49:17.934.
+Test Case '-[iCloudIPATests.HashingTests testStreamingMatchesInMemory]' passed (0.036 seconds).
+Test Suite 'HashingTests' passed at 2026-11-07 08:06:42.710.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.038 (0.039) seconds
+Test Suite 'ICSWriterTests' started at 2026-11-07 08:06:42.712.
 Test Case '-[iCloudIPATests.ICSWriterTests testEventsAreEscapedAndFolded]' started.
-Test Case '-[iCloudIPATests.ICSWriterTests testEventsAreEscapedAndFolded]' passed (0.002 seconds).
+Test Case '-[iCloudIPATests.ICSWriterTests testEventsAreEscapedAndFolded]' passed (0.010 seconds).
 Test Case '-[iCloudIPATests.ICSWriterTests testTodos]' started.
-Test Case '-[iCloudIPATests.ICSWriterTests testTodos]' passed (0.001 seconds).
-Test Suite 'ICSWriterTests' passed at 2026-11-07 07:49:17.947.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.003 (0.013) seconds
-Test Suite 'IntegrationTests' started at 2026-11-07 07:49:17.947.
+Test Case '-[iCloudIPATests.ICSWriterTests testTodos]' passed (0.003 seconds).
+Test Suite 'ICSWriterTests' passed at 2026-11-07 08:06:42.758.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.013 (0.046) seconds
+Test Suite 'IntegrationTests' started at 2026-11-07 08:06:42.758.
 Test Case '-[iCloudIPATests.IntegrationTests testAppDataBackupIsIncrementalAndManifestImports]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testAppDataBackupIsIncrementalAndManifestImports]' passed (0.132 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testAppDataBackupIsIncrementalAndManifestImports]' passed (0.204 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testAutomaticAccountSelectionByFreeSpace]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testAutomaticAccountSelectionByFreeSpace]' passed (0.011 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testAutomaticAccountSelectionByFreeSpace]' passed (0.015 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testCrossAccountCopyAndMove]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testCrossAccountCopyAndMove]' passed (0.071 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testCrossAccountCopyAndMove]' passed (0.072 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testEncryptedUploadDownloadRoundTrip]' started.
-2026-11-07 07:49:18.210372+0000 iCloud IPA[6582:24549] [security] generated new master key
-Test Case '-[iCloudIPATests.IntegrationTests testEncryptedUploadDownloadRoundTrip]' passed (0.100 seconds).
+2026-11-07 08:06:43.088553+0000 iCloud IPA[6282:23875] [security] generated new master key
+Test Case '-[iCloudIPATests.IntegrationTests testEncryptedUploadDownloadRoundTrip]' passed (0.097 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testFailedTransferCanBeRetried]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testFailedTransferCanBeRetried]' passed (0.127 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testFailedTransferCanBeRetried]' passed (1.317 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testIndexerAndAnalyzer]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testIndexerAndAnalyzer]' passed (0.034 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testIndexerAndAnalyzer]' passed (0.036 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testQueueUploadRetriesTransientFailuresAndIndexes]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testQueueUploadRetriesTransientFailuresAndIndexes]' passed (0.074 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testQueueUploadRetriesTransientFailuresAndIndexes]' passed (0.101 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testRefreshStoresQuotaAndStatus]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testRefreshStoresQuotaAndStatus]' passed (0.016 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testRefreshStoresQuotaAndStatus]' passed (0.015 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testRemovingAccountPurgesLocalData]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testRemovingAccountPurgesLocalData]' passed (0.024 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testRemovingAccountPurgesLocalData]' passed (0.035 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testRestoreFileWithIntegrityCheck]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testRestoreFileWithIntegrityCheck]' passed (0.052 seconds).
+Test Case '-[iCloudIPATests.IntegrationTests testRestoreFileWithIntegrityCheck]' passed (0.073 seconds).
 Test Case '-[iCloudIPATests.IntegrationTests testUploadVerifiesChecksumAndDetectsCorruption]' started.
-Test Case '-[iCloudIPATests.IntegrationTests testUploadVerifiesChecksumAndDetectsCorruption]' passed (0.014 seconds).
-Test Suite 'IntegrationTests' passed at 2026-11-07 07:49:18.609.
-	 Executed 11 tests, with 0 failures (0 unexpected) in 0.656 (0.662) seconds
-Test Suite 'LiveGoogleDriveTests' started at 2026-11-07 07:49:18.609.
+Test Case '-[iCloudIPATests.IntegrationTests testUploadVerifiesChecksumAndDetectsCorruption]' passed (0.021 seconds).
+Test Suite 'IntegrationTests' passed at 2026-11-07 08:06:45.476.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 1.987 (2.718) seconds
+Test Suite 'LiveGoogleDriveTests' started at 2026-11-07 08:06:45.476.
 Test Case '-[iCloudIPATests.LiveGoogleDriveTests testDriveRoundTrip]' started.
 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift:14: -[iCloudIPATests.LiveGoogleDriveTests testDriveRoundTrip] : Test skipped - Google Drive credentials not provided
-Test Case '-[iCloudIPATests.LiveGoogleDriveTests testDriveRoundTrip]' skipped (0.018 seconds).
-Test Suite 'LiveGoogleDriveTests' passed at 2026-11-07 07:49:18.628.
-	 Executed 1 test, with 1 test skipped and 0 failures (0 unexpected) in 0.018 (0.019) seconds
-Test Suite 'LiveTeraBoxTests' started at 2026-11-07 07:49:18.628.
+Test Case '-[iCloudIPATests.LiveGoogleDriveTests testDriveRoundTrip]' skipped (0.146 seconds).
+Test Suite 'LiveGoogleDriveTests' passed at 2026-11-07 08:06:45.623.
+	 Executed 1 test, with 1 test skipped and 0 failures (0 unexpected) in 0.146 (0.147) seconds
+Test Suite 'LiveTeraBoxTests' started at 2026-11-07 08:06:45.623.
 Test Case '-[iCloudIPATests.LiveTeraBoxTests testTeraBoxSessionListAndQuota]' started.
 /Users/runner/work/iCloud-Make/iCloud-Make/iCloudIPATests/LiveProviderTests.swift:48: -[iCloudIPATests.LiveTeraBoxTests testTeraBoxSessionListAndQuota] : Test skipped - TeraBox test session not provided
 Test Case '-[iCloudIPATests.LiveTeraBoxTests testTeraBoxSessionListAndQuota]' skipped (0.001 seconds).
-Test Suite 'LiveTeraBoxTests' passed at 2026-11-07 07:49:18.630.
+Test Suite 'LiveTeraBoxTests' passed at 2026-11-07 08:06:45.625.
 	 Executed 1 test, with 1 test skipped and 0 failures (0 unexpected) in 0.001 (0.002) seconds
-Test Suite 'StorageAnalyzerTests' started at 2026-11-07 07:49:18.630.
+Test Suite 'StorageAnalyzerTests' started at 2026-11-07 08:06:45.847.
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testAutomaticAccountRanking]' started.
-Test Case '-[iCloudIPATests.StorageAnalyzerTests testAutomaticAccountRanking]' passed (0.001 seconds).
+Test Case '-[iCloudIPATests.StorageAnalyzerTests testAutomaticAccountRanking]' passed (0.002 seconds).
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testDuplicatesAcrossAccounts]' started.
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testDuplicatesAcrossAccounts]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testLargestAndCategories]' started.
-Test Case '-[iCloudIPATests.StorageAnalyzerTests testLargestAndCategories]' passed (0.004 seconds).
+Test Case '-[iCloudIPATests.StorageAnalyzerTests testLargestAndCategories]' passed (0.009 seconds).
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testSyncNeedsCopy]' started.
 Test Case '-[iCloudIPATests.StorageAnalyzerTests testSyncNeedsCopy]' passed (0.002 seconds).
-Test Suite 'StorageAnalyzerTests' passed at 2026-11-07 07:49:18.640.
-	 Executed 4 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
-Test Suite 'TeraBoxParsingTests' started at 2026-11-07 07:49:18.640.
+Test Suite 'StorageAnalyzerTests' passed at 2026-11-07 08:06:45.934.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.014 (0.087) seconds
+Test Suite 'TeraBoxParsingTests' started at 2026-11-07 08:06:45.934.
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testBlockChecksumsUse4MiBBlocks]' started.
-Test Case '-[iCloudIPATests.TeraBoxParsingTests testBlockChecksumsUse4MiBBlocks]' passed (0.059 seconds).
+Test Case '-[iCloudIPATests.TeraBoxParsingTests testBlockChecksumsUse4MiBBlocks]' passed (0.063 seconds).
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testErrnoMapping]' started.
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testErrnoMapping]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testJsTokenExtraction]' started.
-Test Case '-[iCloudIPATests.TeraBoxParsingTests testJsTokenExtraction]' passed (0.002 seconds).
+Test Case '-[iCloudIPATests.TeraBoxParsingTests testJsTokenExtraction]' passed (0.004 seconds).
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testListDecodingAndPaths]' started.
-Test Case '-[iCloudIPATests.TeraBoxParsingTests testListDecodingAndPaths]' passed (0.006 seconds).
+Test Case '-[iCloudIPATests.TeraBoxParsingTests testListDecodingAndPaths]' passed (0.007 seconds).
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testSessionCookieHeader]' started.
 Test Case '-[iCloudIPATests.TeraBoxParsingTests testSessionCookieHeader]' passed (0.002 seconds).
-Test Suite 'TeraBoxParsingTests' passed at 2026-11-07 07:49:18.712.
-	 Executed 5 tests, with 0 failures (0 unexpected) in 0.069 (0.071) seconds
-Test Suite 'UtilityTests' started at 2026-11-07 07:49:18.719.
+Test Suite 'TeraBoxParsingTests' passed at 2026-11-07 08:06:48.766.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.077 (2.832) seconds
+Test Suite 'UtilityTests' started at 2026-11-07 08:06:48.766.
 Test Case '-[iCloudIPATests.UtilityTests testFileCategories]' started.
 Test Case '-[iCloudIPATests.UtilityTests testFileCategories]' passed (0.001 seconds).
 Test Case '-[iCloudIPATests.UtilityTests testIndonesianLocalizationCoversFormatSpecifiers]' started.
 Test Case '-[iCloudIPATests.UtilityTests testIndonesianLocalizationCoversFormatSpecifiers]' passed (0.004 seconds).
 Test Case '-[iCloudIPATests.UtilityTests testRetryPolicy]' started.
-2026-11-07 07:49:18.727731+0000 iCloud IPA[6582:26657] [transfer] retry 1 after 0.0s: Network error: flaky
-2026-11-07 07:49:18.738478+0000 iCloud IPA[6582:26665] [transfer] retry 2 after 0.0s: Network error: flaky
-Test Case '-[iCloudIPATests.UtilityTests testRetryPolicy]' passed (0.039 seconds).
+2026-11-07 08:06:48.794301+0000 iCloud IPA[6282:25454] [transfer] retry 1 after 0.0s: Network error: flaky
+2026-11-07 08:06:48.805110+0000 iCloud IPA[6282:25357] [transfer] retry 2 after 0.0s: Network error: flaky
+Test Case '-[iCloudIPATests.UtilityTests testRetryPolicy]' passed (0.036 seconds).
 Test Case '-[iCloudIPATests.UtilityTests testUniqueURLAndSanitize]' started.
 Test Case '-[iCloudIPATests.UtilityTests testUniqueURLAndSanitize]' passed (0.001 seconds).
-Test Suite 'UtilityTests' passed at 2026-11-07 07:49:18.766.
-	 Executed 4 tests, with 0 failures (0 unexpected) in 0.045 (0.047) seconds
-Test Suite 'ZipServiceTests' started at 2026-11-07 07:49:18.766.
+Test Suite 'UtilityTests' passed at 2026-11-07 08:06:48.829.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.042 (0.063) seconds
+Test Suite 'ZipServiceTests' started at 2026-11-07 08:06:48.829.
 Test Case '-[iCloudIPATests.ZipServiceTests testInvalidArchive]' started.
 Test Case '-[iCloudIPATests.ZipServiceTests testInvalidArchive]' passed (0.004 seconds).
 Test Case '-[iCloudIPATests.ZipServiceTests testZipAndUnzipRoundTrip]' started.
-Test Case '-[iCloudIPATests.ZipServiceTests testZipAndUnzipRoundTrip]' passed (0.016 seconds).
+Test Case '-[iCloudIPATests.ZipServiceTests testZipAndUnzipRoundTrip]' passed (0.031 seconds).
 Test Case '-[iCloudIPATests.ZipServiceTests testZipSlipIsRejected]' started.
-Test Case '-[iCloudIPATests.ZipServiceTests testZipSlipIsRejected]' passed (0.002 seconds).
-Test Suite 'ZipServiceTests' passed at 2026-11-07 07:49:18.794.
-	 Executed 3 tests, with 0 failures (0 unexpected) in 0.022 (0.028) seconds
-Test Suite 'iCloudIPATests.xctest' passed at 2026-11-07 07:49:18.795.
-	 Executed 55 tests, with 2 tests skipped and 0 failures (0 unexpected) in 1.012 (1.423) seconds
-Test Suite 'All tests' passed at 2026-11-07 07:49:18.795.
-	 Executed 55 tests, with 2 tests skipped and 0 failures (0 unexpected) in 1.012 (1.424) seconds
-2026-11-07 07:49:20.429 xcodebuild[2977:12839] [MT] IDETestOperationsObserverDebug: 166.126 elapsed -- Testing started completed.
-2026-11-07 07:49:20.429 xcodebuild[2977:12839] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
-2026-11-07 07:49:20.429 xcodebuild[2977:12839] [MT] IDETestOperationsObserverDebug: 166.126 sec, +166.126 sec -- end
+Test Case '-[iCloudIPATests.ZipServiceTests testZipSlipIsRejected]' passed (0.004 seconds).
+Test Suite 'ZipServiceTests' passed at 2026-11-07 08:06:57.088.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.039 (8.259) seconds
+Test Suite 'iCloudIPATests.xctest' passed at 2026-11-07 08:06:57.088.
+	 Executed 55 tests, with 2 tests skipped and 0 failures (0 unexpected) in 2.708 (15.779) seconds
+Test Suite 'All tests' passed at 2026-11-07 08:06:57.088.
+	 Executed 55 tests, with 2 tests skipped and 0 failures (0 unexpected) in 2.708 (15.782) seconds
+2026-11-07 08:07:41.838 xcodebuild[3283:13849] [MT] IDETestOperationsObserverDebug: 199.605 elapsed -- Testing started completed.
+2026-11-07 08:07:41.838 xcodebuild[3283:13849] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-11-07 08:07:41.838 xcodebuild[3283:13849] [MT] IDETestOperationsObserverDebug: 199.605 sec, +199.605 sec -- end
 
 Test session results, code coverage, and logs:
 	/Users/runner/work/iCloud-Make/iCloud-Make/build/TestResults.xcresult
