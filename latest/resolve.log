@@ -1,0 +1,16 @@
+Command line invocation:
+    /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/xcodebuild -resolvePackageDependencies -project iCloudIPA.xcodeproj -scheme iCloudIPA
+
+Resolve Package Graph
+
+Fetching from https://github.com/weichsel/ZIPFoundation
+
+Creating working copy of package ‘ZIPFoundation’
+
+Checking out 0.9.20 of package ‘ZIPFoundation’
+
+
+Resolved source packages:
+  ZIPFoundation: https://github.com/weichsel/ZIPFoundation @ 0.9.20
+
+resolved source packages: ZIPFoundation

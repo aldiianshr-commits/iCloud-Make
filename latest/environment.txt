@@ -1,0 +1,6 @@
+Xcode 26.3
+Build version 17C529
+ProductName:		macOS
+ProductVersion:		15.8.2
+BuildVersion:		24H232
+No GOOGLE_IOS_CLIENT_ID secret: app builds with Google Drive marked 'not configured'
